@@ -10,10 +10,10 @@ Smart Core and Smart Companion are a pair of Android apps that work together ove
 
 ## 📦 Installations
 
-| File                                                               | Install On                                                                          |
-| ------------------------------------------------------------------ | ----------------------------------------------------------------------------------- |
-| [`smart_core.apk`](../../releases/latest/smart_core.apk)           | The **target device** you want to control (Smart Glasses, Android TV, tablet, etc.) |
-| [`smart_companion.apk`](../../releases/latest/smart_companion.apk) | Your **Android phone** (the controller)                                             |
+| File                                                                                                                                                    | Install On                                                                          |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| [`smart_core.apk`](https://raw.githubusercontent.com/vodacthe/smart_companion/refs/heads/main/releases/smart_core/latest/smart_core.apk)                | The **target device** you want to control (Smart Glasses, Android TV, tablet, etc.) |
+| [`smart_companion.apk`](https://raw.githubusercontent.com/vodacthe/smart_companion/refs/heads/main/releases/smart_companion/latest/smart_companion.apk) | Your **Android phone** (the controller)                                             |
 
 ---
 
@@ -189,7 +189,7 @@ A: On the target device, open Smart Core and grant **"Ignore battery optimizatio
 
 ## 📄 Changelog
 
-See the [Releases](../../releases) page for full version history.
+See the [Releases](https://github.com/vodacthe/smart_companion/tree/main/releases) page for full version history.
 
 ---
 
