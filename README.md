@@ -193,6 +193,20 @@ To grant access manually:
 
 Once granted, notifications will forward normally.
 
+**Q: Google Play Protect is blocking the app installation.**  
+A: Google Play Protect may flag or block APKs that are not distributed through the Google Play Store. **This does not mean the app is harmful** — it is simply a precaution for sideloaded apps.
+
+To temporarily pause Play Protect and install:
+
+1. Open the **Google Play Store** app
+2. Tap your **profile icon** (top-right corner)
+3. Go to **Play Protect → Settings** (gear icon)
+4. Turn off **"Scan apps with Play Protect"** and confirm
+5. Install `smart_companion.apk` normally
+6. After installation, you can **re-enable Play Protect** — it won't affect the already-installed app
+
+> ⚠️ Re-enabling Play Protect after installation is recommended to keep your device protected.
+
 **Q: File transfer is slow.**  
 A: Make sure both devices are connected to the same Wi-Fi network for the best transfer speed.
 
