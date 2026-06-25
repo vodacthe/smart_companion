@@ -1,2 +1,202 @@
-# smart_companion
-Smart Glasses Companion
+# Smart Core & Smart Companion
+
+![Smart Core & Smart Companion](assets/imgs/smart_core_companion_promotion_banner.png)
+
+> **Control your smart glasses, TV or tablet — right from your Android phone.**
+
+Smart Core and Smart Companion are a pair of Android apps that work together over Bluetooth to give you seamless control, notification mirroring, navigation HUD, screen capture, file transfer, and more — all from the comfort of your phone.
+
+---
+
+## 📦 Installations
+
+| File                                                               | Install On                                                                          |
+| ------------------------------------------------------------------ | ----------------------------------------------------------------------------------- |
+| [`smart_core.apk`](../../releases/latest/smart_core.apk)           | The **target device** you want to control (Smart Glasses, Android TV, tablet, etc.) |
+| [`smart_companion.apk`](../../releases/latest/smart_companion.apk) | Your **Android phone** (the controller)                                             |
+
+---
+
+## 🔗 How It Works
+
+```
+  📱 Smart Companion (Phone)
+          │
+          │  Bluetooth
+          │
+  🥽 Smart Core (Smart Glasses / TV / Tablet)
+```
+
+Pair both devices over Bluetooth. Smart Companion acts as the **controller**, Smart Core acts as the **receiver**. Once connected, your phone becomes a full-featured remote for the target device.
+
+---
+
+## ✨ Features
+
+### 🔔 Notification Forwarder
+
+- Your phone's notifications appear instantly as cards on your smart glasses or TV screen.
+- Dismissible cards — swipe away or tap to view full history.
+- Adapts to both **portrait and landscape** orientations.
+- Only meaningful notifications are shown — silent or empty ones are filtered out automatically.
+
+### 🕹️ Control Mode (Remote & Touchpad)
+
+- **Touchpad tab** — Use your phone screen as a large touchpad for cursor/pointer control with haptic feedback.
+  - Left/right scroll bars for vertical scrolling.
+  - Horizontal scroll bar for horizontal scrolling.
+  - Physical left/right click buttons.
+- **Remote tab** — D-Pad (Up/Down/Left/Right) + OK button, just like a TV remote.
+- **Back** and **Home** hardware buttons available at all times.
+- **Keyboard button** — Opens your phone keyboard and sends keystrokes directly to the target device.
+- Works wirelessly over Bluetooth — no cables or extra hardware required.
+
+### 🗺️ Navigation HUD
+
+- Get real-time turn-by-turn directions displayed as a **heads-up overlay** on your smart glasses or TV.
+- Navigation takes priority — displayed prominently above all other content.
+- Works seamlessly with Google Maps on your phone.
+
+### 📸 Screen Capture
+
+- Capture a screenshot of your smart glasses or TV directly from your phone.
+- The image is instantly shown on your phone with a **Download** option.
+- Save it straight to your phone's gallery.
+
+### 🎬 Screen Record
+
+- Record what's happening on your smart glasses or TV screen — straight from your phone.
+- A live timer shows while recording is in progress.
+- Tap once to start, tap again to stop. The video is saved to the device's gallery.
+- Use **File Transfer** to copy the video to your phone.
+
+### 📁 File Transfer
+
+- Browse the target device's folders directly from your phone.
+- **Upload** files from your phone to the target device.
+- **Download** files from the target device to your phone's Downloads folder.
+- Automatically uses the fastest available wireless connection.
+
+### ☀️ Brightness & Volume Control
+
+- Adjust the target device's **screen brightness** and **media volume** directly from the Smart Companion home screen using sliders.
+
+### 🔋 Battery Monitor
+
+- See the target device's **battery level and charging status** in the Smart Companion connection card.
+
+---
+
+## 📲 Installation
+
+### Step 1 — Enable Unknown Sources
+
+Before installing APKs from this release, allow installation from unknown sources on **both devices**:
+
+> **Settings → Apps → Special app access → Install unknown apps**  
+> Select your browser or file manager and enable it.
+
+### Step 2 — Install Smart Core on the Target Device
+
+1. Transfer `smart_core.apk` to your smart glasses, TV, or tablet.
+2. Install the APK.
+3. Open **Smart Core** and grant all requested permissions (see [Permissions](#-permissions) below).
+
+### Step 3 — Install Smart Companion on Your Phone
+
+1. Transfer `smart_companion.apk` to your Android phone.
+2. Install the APK.
+3. Open **Smart Companion** and grant notification access and Bluetooth permissions.
+
+### Step 4 — Pair the Devices
+
+1. On **Smart Core**, ensure Bluetooth is enabled — the app will start listening automatically.
+2. On **Smart Companion**, tap **Scan & Connect** and select your target device from the list.
+3. Once connected, all features are unlocked. ✅
+
+---
+
+## 🔐 Permissions
+
+### Smart Core (Target Device)
+
+| Permission                       | Why It's Needed                                          |
+| -------------------------------- | -------------------------------------------------------- |
+| **Bluetooth**                    | To receive commands from Smart Companion                 |
+| **Display over other apps**      | To show notification and navigation overlays             |
+| **Accessibility Service**        | Required for Control Mode and Screen Capture to function |
+| **Modify system settings**       | To allow brightness adjustment from Smart Companion      |
+| **Ignore battery optimizations** | To keep the app running reliably in the background       |
+| **Storage / Folder access**      | Required for file transfer and screen recording          |
+
+> ⚠️ **Accessibility Service** must be enabled manually in Android Settings for Control Mode and Screen Capture to work.  
+> Go to: **Settings → Accessibility → Smart Core → Enable**
+
+### Smart Companion (Phone)
+
+| Permission              | Why It's Needed                                           |
+| ----------------------- | --------------------------------------------------------- |
+| **Notification access** | To mirror your phone's notifications on the target device |
+| **Bluetooth**           | To connect to and control the target device               |
+| **Location** (coarse)   | Required by Android to scan for nearby Bluetooth devices  |
+
+---
+
+## ⚙️ Requirements
+
+|               | Smart Core                               | Smart Companion                 |
+| ------------- | ---------------------------------------- | ------------------------------- |
+| **OS**        | Android 6.0+                             | Android 6.0+                    |
+| **Target**    | Smart Glasses, Android TV, Tablet, Phone | Android Phone                   |
+| **Bluetooth** | Required                                 | Required                        |
+| **Wi-Fi**     | Optional (faster file transfer)          | Optional (faster file transfer) |
+
+---
+
+## 🌐 Language Support
+
+Both apps auto-detect your system language. English is the default. Additional languages are supported based on your device's locale settings.
+
+---
+
+## 🎨 Theme Support
+
+Both apps support **Light** and **Dark** themes. The theme can be set manually in Settings or follows the system default.
+
+---
+
+## ❓ Troubleshooting
+
+**Q: Smart Companion can't find my device.**  
+A: Make sure Bluetooth is enabled on both devices and they are in range. Ensure Smart Core is open and running.
+
+**Q: Control Mode doesn't work.**  
+A: Open Smart Core on the target device, tap **"Open Accessibility Settings"** and enable the service. This is required for Control Mode to function.
+
+**Q: Screen Capture returns an error.**  
+A: Same as above — enable the Accessibility Service on the target device via Smart Core's home screen.
+
+**Q: Notifications aren't showing on the target device.**  
+A: On your phone, go to **Settings → Notification access** and enable it for Smart Companion.
+
+**Q: File transfer is slow.**  
+A: Make sure both devices are connected to the same Wi-Fi network for the best transfer speed.
+
+**Q: The app keeps disconnecting.**  
+A: On the target device, open Smart Core and grant **"Ignore battery optimizations"** from the home screen to keep it running in the background.
+
+---
+
+## 📄 Changelog
+
+See the [Releases](../../releases) page for full version history.
+
+---
+
+## 📃 License
+
+This software is provided as a compiled release binary. Source code is not included in this release.
+
+---
+
+_This description is written by AI, reviewed by a fat person_
