@@ -179,6 +179,20 @@ A: Same as above — enable the Accessibility Service on the target device via S
 **Q: Notifications aren't showing on the target device.**  
 A: On your phone, go to **Settings → Notification access** and enable it for Smart Companion.
 
+**Q: Android 15+ shows "App was denied access" when enabling Notification Access.**  
+A: Smart Companion needs **real-time notification access** to forward notifications from your phone to your glasses, TV, or tablet — this is core to how the app works.
+
+On Android 15 and above, apps not distributed through the Google Play Store are **automatically blocked from requesting restricted permissions** (such as Notification Listener access). This is a security policy enforced by Android — **it does not mean the app contains a virus or malware**. Smart Companion is simply a sideloaded app and Android treats it with extra caution.
+
+To grant access manually:
+
+1. Go to **Settings → App Management → Smart Companion**
+2. Tap the **⋮ (three-dot menu)** in the top-right corner
+3. Select **"Allow restricted settings"** and confirm
+4. Open **Smart Companion** and enable **Notification Access** when prompted
+
+Once granted, notifications will forward normally.
+
 **Q: File transfer is slow.**  
 A: Make sure both devices are connected to the same Wi-Fi network for the best transfer speed.
 
