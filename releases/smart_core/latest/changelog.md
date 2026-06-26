@@ -1,2 +1,4 @@
-**Initial release**
-- Added Auto update via github
+- Added fluent control with alternative control mode **See Settings**
+- The **Core** is now available to install on Android TV
+- Added function to switch between devices
+- Improved haptic feedback on touch control
