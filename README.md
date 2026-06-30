@@ -83,6 +83,11 @@ Pair both devices over Bluetooth. Smart Companion acts as the **controller**, Sm
 - **Download** files from the target device to your phone's Downloads folder.
 - Automatically uses the fastest available wireless connection.
 
+### 🔊 Volume Booster
+
+- Boost your target device's media volume up to **200%** for a louder and clearer audio experience.
+- Control the volume boost directly from your phone.
+
 ### ☀️ Brightness & Volume Control
 
 - Adjust the target device's **screen brightness** and **media volume** directly from the Smart Companion home screen using sliders.
