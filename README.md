@@ -10,10 +10,10 @@ Smart Core and Smart Companion are a pair of Android apps that work together ove
 
 ## 📦 Installations
 
-| File                                                                                                                                                    | Install On                                                                          |
+| App / File                                                                                                                                                    | Install On                                                                          |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
 | [`smart_core.apk`](https://raw.githubusercontent.com/vodacthe/smart_companion/refs/heads/main/releases/smart_core/latest/smart_core.apk)                | The **target device** you want to control (Smart Glasses, Android TV, tablet, etc.) |
-| [`smart_companion.apk`](https://raw.githubusercontent.com/vodacthe/smart_companion/refs/heads/main/releases/smart_companion/latest/smart_companion.apk) | Your **Android phone** (the controller)                                             |
+| [**Smart Companion on Google Play**](https://play.google.com/store/apps/details?id=asia.bobgaming.smart_companion)<br>*(Or download the APK directly: [`smart_companion.apk`](https://raw.githubusercontent.com/vodacthe/smart_companion/refs/heads/main/releases/smart_companion/latest/smart_companion.apk))* | Your **Android phone** (the controller)                                             |
 
 ---
 
@@ -70,6 +70,12 @@ Pair both devices over Bluetooth. Smart Companion acts as the **controller**, Sm
 - Tap once to start, tap again to stop. The video is saved to the device's gallery.
 - Use **File Transfer** to copy the video to your phone.
 
+### 📝 Teleprompter
+
+- Turn your smart glasses or tablet into a professional teleprompter.
+- Send scripts from your phone and control the scrolling speed in real-time.
+- Perfect for presentations, video recording, or public speaking.
+
 ### 📁 File Transfer
 
 - Browse the target device's folders directly from your phone.
@@ -104,9 +110,9 @@ Before installing APKs from this release, allow installation from unknown source
 
 ### Step 3 — Install Smart Companion on Your Phone
 
-1. Transfer `smart_companion.apk` to your Android phone.
-2. Install the APK.
-3. Open **Smart Companion** and grant notification access and Bluetooth permissions.
+1. Install **Smart Companion** from [Google Play](https://play.google.com/store/apps/details?id=asia.bobgaming.smart_companion).
+   - *Alternatively, you can transfer and install the `smart_companion.apk` file manually.*
+2. Open **Smart Companion** and grant notification access and Bluetooth permissions.
 
 ### Step 4 — Pair the Devices
 
