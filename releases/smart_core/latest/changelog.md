@@ -1,8 +1,3 @@
-## New and improved UI
+## New feature _App Launcher_
 
-- Better UI experience with easy navigation for Android TV
-- INMO AIR Whitelist detection
-
-## Bug fixes
-
-- Fix Navigation HUD sometimes not showing.
+- Launch installed applications on your target device directly from your phone.

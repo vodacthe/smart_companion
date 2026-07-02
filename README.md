@@ -96,6 +96,10 @@ Pair both devices over Bluetooth. Smart Companion acts as the **controller**, Sm
 
 - See the target device's **battery level and charging status** in the Smart Companion connection card.
 
+### 🚀 App Launcher
+
+- Launch installed applications on your target device directly from your phone.
+
 ---
 
 ## 📲 Installation
