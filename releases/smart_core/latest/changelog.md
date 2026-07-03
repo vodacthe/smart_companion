@@ -1,3 +1,5 @@
-## New feature _App Launcher_
+## Bug Fixes & Improvements
 
-- Launch installed applications on your target device directly from your phone.
+- Fixed D-PAD functionality and improved Android TV control.
+- Enhanced mouse trackpad input handling.
+- Improved Bluetooth connection reliability.
