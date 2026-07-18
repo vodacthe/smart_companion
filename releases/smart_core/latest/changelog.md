@@ -1,5 +1,6 @@
-## Bug Fixes & Improvements
+## Bug Fixes
 
-- Fixed D-PAD functionality and improved Android TV control.
-- Enhanced mouse trackpad input handling.
-- Improved Bluetooth connection reliability.
+- Fix App overlay
+- Dismiss notification by pressing the touch pad
+- Fix app launcher not working over bluetooth
+- Fix volume booster not working at reconnect
