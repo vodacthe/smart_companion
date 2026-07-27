@@ -192,6 +192,9 @@ Both apps support **Light** and **Dark** themes. The theme can be set manually i
 > 5. Open the **Smart Companion** app and select the device running Smart Core.
 > 6. The 2 devices will then pair with each other and the status will show as **Connected**.
 
+**Q: Can Smart Core connect to an iOS device (iPhone/iPad)?**  
+A: Yes! Starting from **version 2.2.3**, Smart Core can connect directly to iOS devices via **BLE (Bluetooth Low Energy)** and **ANCS (Apple Notification Center Service)**, provided the device supports it. This allows Smart Core to receive notifications directly from your iOS device without needing the Smart Companion app.
+
 **Q: Smart Companion can't find my device.**  
 A: Make sure Bluetooth is enabled on both devices and they are in range. Ensure Smart Core is open and running.
 
