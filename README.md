@@ -180,7 +180,17 @@ Both apps support **Light** and **Dark** themes. The theme can be set manually i
 
 ---
 
-## ❓ Troubleshooting
+## ❓ FAQ & Troubleshooting
+
+> [!IMPORTANT]
+> **Q: How to connect the 2 devices?**  
+> **A:** 
+> 1. Install **Smart Core** on the target device (TV / Smart glasses).
+> 2. Install **Smart Companion** on your Android phone.
+> 3. Grant all required permissions on both Smart Core and Smart Companion.
+> 4. Connect the 2 devices to each other via **Bluetooth**.
+> 5. Open the **Smart Companion** app and select the device running Smart Core.
+> 6. The 2 devices will then pair with each other and the status will show as **Connected**.
 
 **Q: Smart Companion can't find my device.**  
 A: Make sure Bluetooth is enabled on both devices and they are in range. Ensure Smart Core is open and running.
