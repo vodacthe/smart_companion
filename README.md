@@ -104,30 +104,32 @@ Pair both devices over Bluetooth. Smart Companion acts as the **controller**, Sm
 
 ## 📲 Installation
 
-### Step 1 — Enable Unknown Sources
-
-Before installing APKs from this release, allow installation from unknown sources on **both devices**:
-
+> [!IMPORTANT]
+> ### Step 1 — Enable Unknown Sources
+> 
+> Before installing APKs from this release, allow installation from unknown sources on **both devices**:
+> 
 > **Settings → Apps → Special app access → Install unknown apps**  
 > Select your browser or file manager and enable it.
-
-### Step 2 — Install Smart Core on the Target Device
-
-1. Transfer `smart_core.apk` to your smart glasses, TV, or tablet.
-2. Install the APK.
-3. Open **Smart Core** and grant all requested permissions (see [Permissions](#-permissions) below).
-
-### Step 3 — Install Smart Companion on Your Phone
-
-1. Install **Smart Companion** from [Google Play](https://play.google.com/store/apps/details?id=asia.bobgaming.smart_companion).
-   - *Alternatively, you can transfer and install the `smart_companion.apk` file manually.*
-2. Open **Smart Companion** and grant notification access and Bluetooth permissions.
-
-### Step 4 — Pair the Devices
-
-1. On **Smart Core**, ensure Bluetooth is enabled — the app will start listening automatically.
-2. On **Smart Companion**, tap **Scan & Connect** and select your target device from the list.
-3. Once connected, all features are unlocked. ✅
+> 
+> ### Step 2 — Install Smart Core on the Target Device
+> 
+> 1. Transfer `smart_core.apk` to your smart glasses, TV, or tablet.
+> 2. Install the APK.
+> 3. Open **Smart Core** and grant all requested permissions (see [Permissions](#-permissions) below).
+> 
+> ### Step 3 — Install Smart Companion on Your Phone
+> 
+> 1. Install **Smart Companion** from [Google Play](https://play.google.com/store/apps/details?id=asia.bobgaming.smart_companion).
+>    - *Alternatively, you can transfer and install the `smart_companion.apk` file manually.*
+> 2. Open **Smart Companion** and grant notification access and Bluetooth permissions.
+> 
+> ### Step 4 — Pair the Devices
+> 
+> 1. **Important:** First, go to the system Bluetooth settings on both devices and pair them together.
+> 2. On **Smart Core**, ensure Bluetooth is enabled — the app will start listening automatically.
+> 3. On **Smart Companion**, tap **Scan & Connect** and select your target device from the list to connect the apps.
+> 4. Once connected, all features are unlocked. ✅
 
 ---
 
