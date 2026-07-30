@@ -1,5 +1,10 @@
-## New Feature
+## New Features
+
+### iOS Connection and Notification
+
+- You can now connect your iPhone to Smart Core and receive notifications
 
 ### Full Navigation Mode
 
-- Trên Core sẽ hiển thị full UI bao gồm cả minimap để việc navigation dễ dàng hơn bao giờ hết.
+- Core now displays a full UI including minimap for easier navigation than ever
+- Basically Google Map, but worse
